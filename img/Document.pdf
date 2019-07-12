@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/index.html?# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+   
+   
+   
+   <title>Document</title>
+<link rel="stylesheet" href="./Document_files/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous"><link rel="stylesheet" href="./Document_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="./Document_files/slick.css"><link rel="stylesheet" href="./Document_files/style.css"></head>
+
+<body>
+   <header class="menu-bar">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-2">
+               <img height="120px" src="./Document_files/logo.png" alt="TaxiTransfer" class="logo">
+            </div>
+            <div class="col-xl-8 ml-auto align-self-center">
+               <nav class="">
+                  <ul class="menu d-flex justify-content-end">
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">Home</a></li>
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">About</a></li>
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">Servicing</a></li>
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">Portfolio</a></li>
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">Blog</a></li>
+                     <li class="menu__item"><a href="http://127.0.0.1:5500/index.html?#">Contacts us</a></li>
+                     <li class="menu__item"><i class="fas fa-search"></i></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <header class="header">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-12">
+               <h1 class="header__title">Трансфер на минивэне</h1>
+               <p class="header__text">Пассажирские перевозки в любые направления</p>
+               <button class="button">Наши услуги</button>
+               <button class="button">Заказать</button>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <section class="about">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-8">
+               <h2 class="about__title">О компании</h2>
+               <p class="about__text">Транспортные услуги оказываются на комфортабельном микроавтобусе - 8
+                  мест.</p>
+            </div>
+         </div>
+         <div class="row justify-content-around">
+            <div class="col-xl-3">
+               <img height="100px" src="./Document_files/about3.png" alt="">
+               <h3 class="about__h3">Профессиональный водитель</h3>
+               <p class="about__text">Доставку осуществляет квалифицированый водитель с опытом вождения более 25 лет</p>
+            </div>
+            <div class="col-xl-3">
+               <img height="100px" src="./Document_files/about1.png" alt="">
+               <h3 class="about__h3">Комфортабельный салон</h3>
+               <p class="about__text">Минивэн оснащен кондиционером с индивидульным обдувом</p>
+            </div>
+            <div class="col-xl-3">
+               <img height="100px" src="./Document_files/about2.png" alt="">
+               <h3 class="about__h3">Вместительный багажный отсек</h3>
+               <p class="about__text">Обслуживвние свадеб, корпоративов, экскурсий</p>
+            </div>
+         </div>
+      </div>
+      
+   </section>
+
+   <section class="services">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-8">
+               <h2 class="about__title">Наши услуги</h2>
+               <p class="about__text">Транспортные услуги оказываются на автомобиле марки "Citroen". Микроавтобус
+                  вместимостью 8 пассажирских мест
+               </p>
+            </div>
+         </div>
+         <div class="row justify-content-center">
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-plane icon"></i>
+                  <h3 class="about__h3">Трансфер в аэропорты</h3>
+                  <p class="about__text">Доставка в аэропорты Московской области:
+                     Внуково, Домодедово, Шереметьево, Жуковский</p>
+                  <button class="button-services">Предварительная заявка</button>
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-subway icon"></i>
+                  <h3 class="about__h3">Обслуживание свадеб</h3>
+                  <p class="about__text">Обслуживние выездных мероприятий, корпоративов, экскурсий</p>
+                  <button class="button-services">Подробнее</button>
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-suitcase-rolling icon"></i>
+                  <h3 class="about__h3">Обслуживание свадеб</h3>
+                  <p class="about__text">Обслуживние выездных мероприятий, корпоративов, экскурсий</p>
+                  <button class="button-services">Подробнее</button>
+               </div>
+            </div>
+
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-plane icon"></i>
+                  <h3 class="about__h3">Обслуживание свадеб</h3>
+                  <p class="about__text">Обслуживние выездных мероприятий, корпоративов, экскурсий</p>
+                  <button class="button-services">Подробнее</button>
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-subway icon"></i>
+                  <h3 class="about__h3">Обслуживание свадеб</h3>
+                  <p class="about__text">Обслуживние выездных мероприятий, корпоративов, экскурсий</p>
+                  <button class="button-services">Подробнее</button>
+               </div>
+            </div>
+            <div class="col-xl-4">
+               <div class="our_card">
+                  <i class="fas fa-suitcase-rolling icon"></i>
+                  <h3 class="about__h3">Обслуживание свадеб</h3>
+                  <p class="about__text">Обслуживние выездных мероприятий, корпоративов, экскурсий</p>
+                  <button class="button-services">Подробнее</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- <section class="porfolio">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-8">
+               <h2 class="about__title">Стоимость трансфера на минивэне</h2>
+               <p class="about__text">Транспортные услуги оказываются на комфортабельном микроавтобусе - 8
+                  мест.</p>
+               <button class="button" filter="all">Смотреть все</button>
+               <button class="button" filter="wd">Аэропорты</button>
+               <button class="button" filter="ud">Вокзалы</button>
+               <button class="button" filter="moc">Иные</button>
+            </div>
+         </div>
+         <div class="row filter">
+            <div filter="wd" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+            <div filter="moc" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+            <div filter="wd" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+            <div filter="moc" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+            <div filter="ud" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+            <div filter="ud" class="col-xl-4"><img height="200px" src="img/header.png" alt=""></div>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="col-xl-12">
+            <button class="button">Смотреть все</button>
+         </div>
+      </div>
+   </section>-->
+
+   <footer class="footer">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-8">
+               <h2 class="about__title">Контактная информация</h2>
+               <p class="about__text">Свяжитесь с нами оставив предварительную заявку или по совершив звонок
+               </p>
+            </div>
+         </div>
+         <div class="row justify-content-around">
+            <div class="col-xl-3">
+               <div class="circle"><i class="fas fa-map-marker-alt"></i></div>
+               <p>г. Калуга,<br>ул.Чичерина 18</p>
+            </div>
+            <div class="col-xl-3">
+               <div class="circle"><i class="fas fa-phone-alt"></i></div>
+               <p>+7(953)462-75-00,<br>+7(920)611-13-62</p>
+            </div>
+            <div class="col-xl-3">
+               <div class="circle"><i class="fas fa-envelope"></i></div>
+               <p>bub@mail.ru,<br>Viber,Whats'App</p>
+            </div>
+         </div>
+
+         <div class="row justify-content-center form">
+            <div class="col-xl-5"><input type="text" placeholder="Ваше имя"></div>
+            <div class="col-xl-5"><input type="email" placeholder="Ваш email"></div>
+            <div class="col-xl-10"><textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea></div>
+            <div class="col-xl-2 offset-xl-7"><button>Отправить</button></div>
+         </div>
+      </div>
+   </footer>
+
+   <footer>
+      <div class="rules">All rights reserved 2019</div>
+   </footer>
+
+
+
+
+
+
+
+
+
+   <script src="./Document_files/jquery-3.4.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="./Document_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="./Document_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="./Document_files/slick.min.js"></script>
+   <script src="./Document_files/main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

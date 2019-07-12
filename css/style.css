@@ -1,0 +1,210 @@
+@import 'fonts.css';
+body{
+   font-family:'Open Sans';
+}
+ul, li{
+   display: block;
+   padding: 0;
+   margin: 0;
+}
+.menu-bar{
+   color: #212121;
+   padding: 20px 0;
+    background: #fff;
+}
+.menu__item{
+   margin-left: 37px;
+}
+.menu__item a{
+   font-family:'Open Sans SemiBold';
+   font-size: 20px;
+   color: #212121;
+}
+.menu__item a:hover{
+   text-decoration: none;
+   color: #868686;
+}
+
+/*Шапка*/
+
+.header{
+   color: #fff;
+   text-align: center;
+   padding: 180px 0;
+   background-size: cover;
+   background-position: 0 100%;
+  background-image: url(../img/header.png);
+  opacity: 0.9;
+}
+.header__title{
+   font-size: 55px;
+}
+.header__text{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.button{
+   text-transform: uppercase;
+   padding: 10px 25px;
+   margin: 10px;
+    color: #fff;
+    transition: 0.3s;
+   background: transparent;;
+    border: 2px solid #fff;
+    cursor: pointer;
+     border-radius: 50px 50px 50px 50px;
+}
+.button:hover{
+   border: 2px solid #00897b;
+   background: #00897b;
+}
+/*About*/
+.about{
+   text-align: center;
+   color: black;
+   background: #fff;
+   padding-top: 50px;
+   padding-bottom: 50px;
+  
+}
+.about__title{
+   font-size: 30px;
+   font-weight: bold;
+}
+.about__text {
+   color: #212121;
+   font-size: 15px;
+  /* padding-bottom: 110px;*/
+}
+.about__h3{
+   font-family:'Open Sans SemiBold';
+   font-size: 20px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+/*Services*/
+.services{
+   text-align: center;
+   color: black;
+   background: rgb(143, 136, 136);
+   padding-top: 165px;
+   padding-bottom: 125px;
+}
+.our_card{
+   background: rgb(90, 206, 241);
+   padding: 50px 25px 40px;
+   transition: 0.3s;
+   margin-bottom: 30px;
+    border-radius: 50px 50px 0 50px;
+      box-shadow: 5px 10px 12px -3px rgba(0,0,0,0.26);
+}
+.our_card:hover{
+    box-shadow: -2px 1px 28px 12px rgba(0,0,0.26);
+}
+.icon{
+   font-size: 60px;
+   color: black;
+}
+.button-services{
+    border-radius: 50px 50px 50px 50px;
+   text-transform: uppercase;
+   border:1px solid black;
+   background: #05b0c7;
+   padding:10px 12px 10px; 
+    font-family:'Open Sans SemiBold';
+ 
+}
+.button-services:hover{
+ background-color: rgb(88, 32, 241);
+   color: white;
+}
+
+/*Porfolio*/
+/*
+.porfolio{
+   text-align: center;
+   padding-top: 120px;
+   padding-bottom: 135px;
+}
+.porfolio button:hover{
+     color: black;
+      border: 2px solid #00897b;
+      background: transparent;
+}
+.porfolio img{
+   margin-bottom: 30px;
+}
+.filter{
+   padding: 120px 0;
+}
+*/
+
+
+/*Footer*/
+
+.footer{
+   padding-top: 165px;
+   padding-bottom: 125px;
+    color: black;
+   background-image: url(../img/team1.png) ;
+   background-repeat: no-repeat;
+    background-size:cover;
+   text-align: center;
+}
+.footer .about__text{
+    color: black;
+}
+/* .fa-map-marker-alt.fa-phone-alt.fa-envelope{
+   font-size:62px;
+   color: #fff;
+}*/
+.circle{
+   background: #2abeb2;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto 35px;
+}
+.circle + p{
+   font-size: 20px;
+   font-family:'Open Sans SemiBold';
+}
+.footer input, .footer textarea{
+   padding: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+}
+.footer input:focus, .footer textarea:focus, .footer button{
+   outline: none;
+}
+.footer button{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 20px 80px;
+    border-radius:10px;
+    border: none;
+    transition: 0.3s;
+}
+.footer button:hover{
+   opacity: 0.6;
+}
+.form textarea{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   resize: none;
+}
+.form{
+   margin-top: 70px;
+}
+.rules{
+   padding: 20px 0;
+   text-align: center;
+   font-weight: 600;
+}
